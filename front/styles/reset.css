@@ -1,0 +1,62 @@
+/* reset.css */
+
+/* Restablecer los márgenes, el relleno y el espaciado */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Restablecer la fuente */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Restablecer los enlaces */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Restablecer las imágenes */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Restablecer las tablas */
+table {
+  border-collapse: collapse;
+}
+
+/* Restablecer los formularios */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Restablecer los botones */
+button {
+  cursor: pointer;
+}
+
+/* Restablecer los elementos de la interfaz de usuario */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Crear nueva Pelicula</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Movies App</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./movies_form.html">Crear nueva Pelicula</a></li>
+          <li><a href="./history.html">Historia del Cine</a></li>
+          <li><a href="./aboutme.html">Sobre Mi</a></li>
+          <li><a href="./aboutapp.html">Sobre Movies App</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Crear nueva Pelicula</h2>
+      <br /><br /><br />
+      
+      <form
+        id="movieForm"
+        style="text-align: right; margin-right: 42%;"
+       >
+       <label for="title">Titulo: </label>
+       <input
+         type="text"
+         id="title"
+         name="title"
+         placeholder="Ingresar titulo..."
+         autocomplete="off"
+         required
+         />
+         <br /><br />
+
+         <label for="year">Año: </label>
+           <input
+              type="number"
+              id="year"
+              name="year"
+              placeholder="Ingresar año..."
+              autocomplete="off"
+           required
+          />
+          <br /><br />
+
+          <label for="director">Director: </label>
+          <input
+             type="text"
+             id="director"
+             name="director"
+             placeholder="Ingresar director..."
+             autocomplete="off"
+          required
+         />
+         <br /><br />
+
+         <label for="duration">Duracion: </label>
+          <input
+             type="text"
+             id="duration"
+             name="duration"
+             placeholder="Ingresar Duracion..."
+             autocomplete="off"
+          required
+         />
+         <br /><br />
+
+         <label for="genre">Genero: </label>
+          <input
+             type="text"
+             id="genre"
+             name="genre"
+             placeholder="Ingresar generos..."
+             autocomplete="off"
+          required
+         />
+         <br /><br />
+
+         <label for="rate">Calificación: </label>
+          <input
+             type="number"
+             step="any"
+             id="rate"
+             name="rate"
+             placeholder="Ingresar calificación..."
+             autocomplete="off"
+          required
+         />
+         <br /><br />
+
+
+         <label for="poster">Poster: </label>
+          <input
+             type="text"
+             id="poster"
+             name="poster"
+             placeholder="Ingresar url de poster..."
+             autocomplete="off"
+          required
+         />
+         <br /><br />
+
+         <input type="submit" value="Nueva" />
+         <p> Nota: se pueden ingresar nuevas peliculas.</p>
+
+      </form>
+
+      <br /><hr /><br />
+    </section>
+
+    <footer>
+      <h6>Cohorte FT47 - Año 2024</h6>
+    </footer>
+
+    <script src="../scripts/createMovie.js"></script>
+
+  </body>
+</html>

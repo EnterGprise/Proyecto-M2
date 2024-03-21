@@ -1,0 +1,8 @@
+-Nueva Pelicula:
+ -Titulo: Donnie Darko
+ -Año : 2000
+ -Director: Richard Kelly
+ -Duracion: 1h 53min
+ -Genero: Thriller Drama Fantasy
+ -Calificacion: 8.8
+ -Poster: https:/cdn.culturagenial.com/es/imagenes/donnie-darko-cartel.jpg
